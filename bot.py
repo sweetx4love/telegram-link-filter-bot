@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import re
 import os
 
-TOKEN = os.getenv("7753792475:AAGewlbt8QNw8mGNWcgnvAdKr_BEPa5cqm8")  # অথবা সরাসরি 'YOUR_BOT_TOKEN' দিয়ে দিন
+TOKEN = os.getenv("TOKEN")  # অথবা সরাসরি 'YOUR_BOT_TOKEN' দিয়ে দিন
 URL_REGEX = r'(https?://[^\s]+)'
 
 # /start command
